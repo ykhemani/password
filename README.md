@@ -2,6 +2,15 @@
 
 This program uses the `github.com/sethvargo/go-password/password` library to generate strong passwords.
 
+## Prequisites
+
+[Golang](https://golang.org) - tested with Go version 1.11.
+
+[github.com/sethvargo/go-password/password](https://godoc.org/github.com/sethvargo/go-password/password) package.
+```
+go get -u github.com/sethvargo/go-password/password
+```
+
 ## Building
 
 You may build this program by running:
