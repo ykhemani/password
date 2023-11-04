@@ -4,11 +4,11 @@ This program uses the `github.com/sethvargo/go-password/password` library to gen
 
 ## Prequisites
 
-[Golang](https://golang.org) - tested with Go version 1.11.
+[Golang](https://golang.org) - tested with Go version 1.21.3.
 
 [github.com/sethvargo/go-password/password](https://godoc.org/github.com/sethvargo/go-password/password) package.
 ```
-go get -u github.com/sethvargo/go-password/password
+go install github.com/sethvargo/go-password/password@latest
 ```
 
 ## Building
@@ -17,6 +17,14 @@ You may build this program by running:
 
 ```
 go build
+```
+
+## Building
+
+You may install this program by running:
+
+```
+go install
 ```
 
 ## Usage
